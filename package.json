@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Gabrielmgb.github.io/calculadora-react",
+  "homepage": "https://gabrielmgb.github.io/calculadora-react/",
   "name": "calculadora",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run dev",
+    "predeploy": "npm run build",
     "deploy":"gh-pages -d dist"
   },
   "dependencies": {
